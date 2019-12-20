@@ -3,10 +3,7 @@ class Book
     @title = title
   end
   
-  def title
-    @title
-  end
-  
+  attr_reader :title
   attr_accessor :author
   attr_accessor :page_count
   attr_accessor :genre
